@@ -10,6 +10,12 @@ plugins {
 }
 
 kotlin {
+    sourceSets {
+        //...
+        commonTest.dependencies {
+            implementation(libs.kotlin.test)
+        }
+    }
     androidTarget {
         @OptIn(ExperimentalKotlinGradlePluginApi::class)
         compilerOptions {
