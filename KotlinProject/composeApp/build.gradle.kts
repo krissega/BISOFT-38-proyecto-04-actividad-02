@@ -51,6 +51,9 @@ kotlin {
             implementation(libs.androidx.lifecycle.runtime.compose)
         }
     }
+    sourceSets.commonMain.dependencies {
+        implementation(kotlin("test"))
+    }
 }
 
 android {
