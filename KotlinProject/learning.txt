@@ -1,0 +1,3 @@
+¿Qué aprendí? como configurar graddle
+¿Qué valor tienen las pruebas en el ámbito profesional? es importante poder probar el comportamiento del codigo en escenarios especificos
+esto para verificar si cumple con lo esperado del mismo, y hajustar o bien certificar los resultados.
